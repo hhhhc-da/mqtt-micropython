@@ -31,6 +31,7 @@ def pwm_call(pwm):
     @ params: pwm  - PWM   pwm 操作句柄
     @ return: ret  - int   0 表示正常, 其余负数值表示不同的异常
     '''
+    return
     try:
         pwm.duty(256)
         utime.sleep_ms(50)
